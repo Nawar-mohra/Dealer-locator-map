@@ -55,30 +55,10 @@
 .header-actions .header-action,.header-actions .header-action svg,.header-actions .language-button svg{width:24px;height:24px}
 @media(max-width:450px){.header-actions .header-logo{width:32px;height:32px}}
 
-/* Dealer map pin and directions interaction */
-.map-link{cursor:default}
-.map-marker-control{position:absolute;left:50%;top:57%;display:flex;flex-direction:column;align-items:center;gap:20px;transform:translate(-50%,-50%);z-index:2}
-.map-marker{position:relative;width:46px;height:55px;padding:0;border:0;background:transparent;cursor:pointer;display:block;flex:none}
-.map-marker .pin-default{display:block;width:46px;height:55px;object-fit:contain}
-.pin-active-crop{display:none;position:relative;width:50px;height:59px;overflow:hidden}
-.pin-active-crop img{position:absolute;left:-45px;top:-60px;width:140px;height:119px;max-width:none}
-.map-marker-control.is-active .map-marker{width:50px;height:59px}
-.map-marker-control.is-active .pin-default{display:none}
-.map-marker-control.is-active .pin-active-crop{display:block}
-.map-directions{display:none;height:40px;min-width:140px;padding:0 12px;background:#204982;color:#fff;border-radius:0 0 2px 2px;align-items:center;justify-content:space-between;gap:12px;font-size:13px;line-height:16px;text-decoration:none;white-space:nowrap}
-.map-directions svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
-.map-marker-control.is-active .map-directions{display:flex}
-.map-marker,.map-marker-control.is-active .map-marker{width:20px;height:24px}
-.map-marker .pin-default{width:20px;height:24px}
-.pin-active-crop,.map-marker-control.is-active .pin-active-crop{width:20px;height:24px}
-.pin-active-crop img{left:-18px;top:-24px;width:56px;height:47.6px}
 
-/* Stable 32px map pin with a color-only active state */
-.map-marker-control{left:36%;top:75%;display:block;width:32px;height:32px;gap:0;transform:translate(-50%,-50%)}
-.map-marker-control .map-marker,.map-marker-control.is-active .map-marker{position:absolute;inset:0;width:32px;height:32px;padding:0;background:transparent}
-.map-marker-control .pin-default,.map-marker-control .pin-active{position:absolute;left:50%;top:50%;width:26.72px;height:32px;object-fit:contain;transform:translate(-50%,-50%)}
-.map-marker-control .pin-active{display:none}
-.map-marker-control.is-active .pin-default{display:none}
-.map-marker-control.is-active .pin-active{display:block}
-.map-marker-control .pin-active-crop{display:none}
-.map-marker-control .map-directions{position:absolute;left:50%;bottom:calc(100% + 20px);transform:translateX(-50%);margin:0}
+
+/* Street-level map centered on the dealer, with the pin opening directions directly. */
+.map-link{cursor:default;background:#e7edf1}
+.map-embed{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map-link>.map-marker{position:absolute;left:50%;top:50%;z-index:2;display:block;width:32px;height:32px;border:0;background:transparent;clip-path:none;filter:none;padding:0;transform:translate(-50%,-50%);cursor:pointer}
+.map-link>.map-marker .pin-default{display:block;width:26.72px;height:32px;object-fit:contain}

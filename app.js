@@ -96,12 +96,3 @@ searchPanel.addEventListener('submit', (event) => {
     match.scrollIntoView({behavior: 'smooth', block: 'center'});
   }
 });
-
-const mapMarker = document.querySelector('.map-marker');
-const mapMarkerControl = document.querySelector('.map-marker-control');
-mapMarker.addEventListener('click', () => {
-  const active = mapMarker.getAttribute('aria-expanded') === 'true';
-  mapMarker.setAttribute('aria-expanded', String(!active));
-  mapMarker.setAttribute('aria-label', active ? 'Show dealer location actions' : 'Hide dealer location actions');
-  mapMarkerControl.classList.toggle('is-active', !active);
-});
