@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#041e42" />
+    <title>Börjessons Lastbilar AB | Scania Dealer</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="phone-shell">
+    <header class="site-header">
+      <div class="header-menu-area"><button class="menu-button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span><span></span></button></div>
+      <div class="header-actions">
+        <button class="header-action search-button" type="button" aria-label="Open search" aria-expanded="false" aria-controls="header-search"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="13.5" cy="13.5" r="9.5"></circle><path d="m20.5 20.5 8 8"></path></svg></button>
+        <button class="header-action language-button" type="button" aria-label="Choose language" aria-expanded="false" aria-controls="language-menu"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="12"></circle><path d="M4 16h24M16 4c3.4 3.3 5 7.3 5 12s-1.6 8.7-5 12c-3.4-3.3-5-7.3-5-12s1.6-8.7 5-12Z"></path></svg></button>
+        <a class="header-logo" href="#top" aria-label="Scania home"><img src="https://www.scania.com/etc.clientlibs/scania-clientlibs/clientlibs/clientlib-site/resources/logotype/1.0.0/scania_symbol/scania-symbol.svg" alt="Scania" class="header-logo-image" /></a>
+      </div>
+      <form class="header-search" id="header-search" role="search" hidden><label for="dealer-search">Search</label><input id="dealer-search" type="search" placeholder="Search" /><button type="submit">Go</button></form>
+      <div class="language-menu" id="language-menu" hidden><button type="button" lang="sv">Sverige · Svenska</button><button type="button" lang="en">International · English</button></div>
+      <nav class="menu-panel" id="primary-navigation" aria-label="Main navigation" hidden>
+        <a href="#dealer-name">Dealer details</a>
+        <a href="#panel-contact">General contact</a>
+        <a href="#workshop-services">Workshop services</a>
+        <a href="#sales-service">Sales and service</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="dealer-hero" aria-labelledby="dealer-name">
+        <div class="hero-inner">
+          <h1 id="dealer-name">Börjessons<br class="mobile-break" /> Lastbilar AB</h1>
+          <div class="hero-meta">
+            <div class="meta-row"><img src="/assets/pin-light.svg" alt="" /><span>Borgens gata 11, 441 39 Alingsås</span></div>
+            <div class="meta-row"><img src="/assets/calendar.svg" alt="" /><span>OPEN TODAY: 07:00 - 22:00</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="page-content">
+        <section class="contact-panel" aria-label="Dealer information">
+          <div class="tabs" role="tablist" aria-label="Dealer information">
+            <button class="tab is-active" id="tab-contact" role="tab" aria-selected="true" aria-controls="panel-contact">General contact</button>
+            <button class="tab" id="tab-cards" role="tab" aria-selected="false" aria-controls="panel-cards" tabindex="-1">Accepted credit cards</button>
+          </div>
+          <div class="tab-panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact">
+            <div class="contact-inner">
+              <section class="info-group">
+                <h2>Telefonnummer</h2>
+                <div class="info-row"><img src="/assets/phone.svg" alt="" /><div><a href="tel:+46322659330">+46 (0) 322 659 330</a><small>Telefon växel</small></div></div>
+                <div class="info-row"><img src="/assets/phone.svg" alt="" /><div><a href="tel:+46322659330">+46 (0) 322 659 330</a><small>Telefon allmänt</small></div></div>
+                <div class="info-row"><img src="/assets/phone.svg" alt="" /><div><a href="tel:+46322659330">+46 (0) 322 659 330</a><small>Telefon verkstad</small></div></div>
+              </section>
+              <section class="info-group">
+                <h2>Email addresses</h2>
+                <div class="info-row"><img src="/assets/email.svg" alt="" /><div><a href="mailto:marketing@borjessonsbil.se">marketing@borjessonsbil.se</a><small>E-mail</small></div></div>
+                <div class="info-row"><img src="/assets/email.svg" alt="" /><div><a href="mailto:marketing@borjessonsbil.se">marketing@borjessonsbil.se</a><small>Verkshop</small></div></div>
+                <div class="info-row"><img src="/assets/email.svg" alt="" /><div><a href="mailto:marketing@borjessonsbil.se">marketing@borjessonsbil.se</a><small>Verk shop</small></div></div>
+              </section>
+              <section class="info-group hours-group">
+                <h2>Opening hours</h2>
+                <div class="hours"><strong>Måndag - Torsdag</strong><span>07:00-16:00</span></div>
+                <div class="hours"><strong>Fredag</strong><span>07:00-15:00</span></div>
+              </section>
+            </div>
+          </div>
+          <div class="tab-panel cards-panel" id="panel-cards" role="tabpanel" aria-labelledby="tab-cards" hidden>
+          <div class="card-type"><img src="/assets/credit-card.svg" alt="" /> VISA</div>
+          </div>
+        </section>
+
+        <section class="accordion-list" aria-label="Dealer services">
+          <details class="accordion" open>
+            <summary>Contact Us</summary>
+            <div class="people-list">
+              <article class="person-card"><div class="person-name">Per-Ola Levin</div><div class="person-role">COMPLAINTS COORDINATOR</div><div class="person-contact"><img src="/assets/phone.svg" alt="" /><a href="tel:+4644206966">+4644206966</a></div><div class="person-contact"><img src="/assets/email.svg" alt="" /><a href="mailto:per-ola.levin@borjessonsbil.se">per-ola.levin@borjessonsbil.se</a></div></article>
+              <article class="person-card"><div class="person-name">Per-Ola Levin</div><div class="person-role">COMPLAINTS COORDINATOR</div><div class="person-contact"><img src="/assets/phone.svg" alt="" /><a href="tel:+4644206966">+4644206966</a></div><div class="person-contact"><img src="/assets/email.svg" alt="" /><a href="mailto:per-ola.levin@borjessonsbil.se">per-ola.levin@borjessonsbil.se</a></div></article>
+              <article class="person-card"><div class="person-name">Per-Ola Levin</div><div class="person-role">COMPLAINTS COORDINATOR</div><div class="person-contact"><img src="/assets/phone.svg" alt="" /><a href="tel:+4644206966">+4644206966</a></div><div class="person-contact"><img src="/assets/email.svg" alt="" /><a href="mailto:per-ola.levin@borjessonsbil.se">per-ola.levin@borjessonsbil.se</a></div></article>
+              <article class="person-card"><div class="person-name">Per-Ola Levin</div><div class="person-role">COMPLAINTS COORDINATOR</div><div class="person-contact"><img src="/assets/phone.svg" alt="" /><a href="tel:+4644206966">+4644206966</a></div><div class="person-contact"><img src="/assets/email.svg" alt="" /><a href="mailto:per-ola.levin@borjessonsbil.se">per-ola.levin@borjessonsbil.se</a></div></article>
+            </div>
+          </details>
+          <details class="accordion" id="workshop-services"><summary>Workshop services</summary><div class="accordion-content"><p>Our workshop team provides maintenance, repairs and support for your Scania vehicle.</p></div></details>
+          <details class="accordion" id="sales-service"><summary>Sales and service</summary><div class="accordion-content"><p>Contact our team for vehicle sales, parts and service appointments.</p></div></details>
+        </section>
+
+        <section class="find-us">
+          <h2>Find us:</h2>
+          <div class="map-link" aria-label="Map showing the dealer location">
+            <img class="map-image" src="/assets/dealer-map.png" alt="Map showing the dealer location in Alingsås, Sweden" />
+            <div class="map-marker-control">
+              <a class="map-directions" href="https://www.google.com/maps/dir/?api=1&amp;destination=Borgens+gata+11%2C+441+39+Alings%C3%A5s" target="_blank" rel="noopener noreferrer"><span>Get directions</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8 14 2l-4.8 12-1.5-5.2L2 8Z" /></svg></a>
+              <button class="map-marker" type="button" aria-label="Show dealer location actions" aria-expanded="false"><img class="pin-default" src="/assets/map-pin-default.png" alt="" /><img class="pin-active" src="/assets/map-pin-active.png" alt="" /></button>
+            </div>
+          </div>
+          <article class="map-card">
+            <h3>Börjessons Lastbilar AB</h3>
+            <div><img src="/assets/pin-muted.svg" alt="" /><span>Borgens gata 11, 441 39, Alingsås</span></div>
+            <div><img src="/assets/phone.svg" alt="" /><a href="tel:+46107066161">+46 (0) 10 706 61 61</a></div>
+            <div><img src="/assets/globe.svg" alt="" /><a href="https://www.dealersite.com">www.dealersite.com</a></div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a href="#legal">Legal link</a>
+        <div class="social-links" aria-label="Social media"><a href="#facebook" aria-label="Facebook"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M9.3 15V8.7h2.1l.3-2.4H9.3V4.8c0-.7.2-1.2 1.2-1.2h1.3V1.4c-.2 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v1.4H4v2.4h2.2V15z" fill="currentColor"/></svg></a><a href="#instagram" aria-label="Instagram"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="12" height="12" rx="3"/><circle cx="8" cy="8" r="2.8"/><circle class="social-dot" cx="11.7" cy="4.5" r=".8"/></svg></a><a href="#linkedin" aria-label="LinkedIn"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.4 5.8H1V15h2.4zM2.2 1a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8M15 9.7c0-2.8-1.5-4.1-3.5-4.1-1.6 0-2.3.9-2.7 1.5V5.8H6.4V15h2.4v-4.6c0-1.2.2-2.4 1.8-2.4s1.7 1.4 1.7 2.5V15H15z" fill="currentColor"/></svg></a><a href="#youtube" aria-label="YouTube"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M15.6 4.2a2 2 0 0 0-1.4-1.4C13 2.5 8 2.5 8 2.5s-5 0-6.2.3A2 2 0 0 0 .4 4.2C.1 5.4.1 8 .1 8s0 2.6.3 3.8a2 2 0 0 0 1.4 1.4c1.2.3 6.2.3 6.2.3s5 0 6.2-.3a2 2 0 0 0 1.4-1.4c.3-1.2.3-3.8.3-3.8s0-2.6-.3-3.8" fill="currentColor"/><path d="m6.4 10.6 4.2-2.6-4.2-2.6z" fill="#041e42"/></svg></a></div>
+        <div class="footer-bottom-row"><div class="copyright">© 2023 Scania All Rights Reserved</div><a class="footer-logo" href="#top" aria-label="Scania home"><img src="/assets/scania-wordmark-light.svg" alt="Scania" /></a></div>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>

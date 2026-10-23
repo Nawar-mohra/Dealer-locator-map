@@ -1,0 +1,84 @@
+@font-face{font-family:Scania;src:local("Scania Sans CY"),local("Scania Sans"),local("Arial");font-weight:100 900}
+:root{font-family:Scania,Arial,sans-serif;color:#0d0f13;background:#fff;font-synthesis:none;text-rendering:optimizeLegibility;--navy:#041e42;--blue:#2b70d3;--border:#dbdfe6;--muted:#56657a}
+*{box-sizing:border-box}body{margin:0;min-width:320px;background:#eef1f5}.phone-shell{width:min(402px,calc(100vw - 48px));margin:24px auto;background:#fff;box-shadow:0 12px 44px #041e4226;border-radius:26px;overflow:hidden}.site-header{position:relative;z-index:2;height:64px;padding:0 12px;display:flex;align-items:center;gap:0;background:var(--navy);color:#fff}.menu-button{padding:0;width:12px;height:16px;border:0;background:transparent;display:flex;flex-direction:column;justify-content:center;gap:3px}.menu-button span{height:1px;width:7px;background:#fff}.country-name{margin-left:56px;color:#fff;font-size:12px;line-height:10px;font-weight:400}.header-logo{margin-left:auto;margin-right:4.5px;width:33.524px;height:32px;display:flex;align-items:center;justify-content:center;flex:none}.header-logo img{display:block;flex:none;transform:scale(.381);transform-origin:center}.menu-panel{position:absolute;z-index:8;top:64px;left:0;right:0;padding:8px 24px 16px;background:var(--navy);box-shadow:0 8px 14px #0003;display:flex;flex-direction:column}.menu-panel[hidden]{display:none}.menu-panel a{padding:12px 0;border-bottom:1px solid #ffffff33;color:#fff;text-decoration:none;font-size:14px}.dealer-hero{height:271px;background:var(--navy);color:#f6f7f9}.hero-inner{max-width:900px;margin:0 auto;padding:32px 24px}.hero-inner h1{font-weight:700;font-size:40px;line-height:40px;letter-spacing:-1.5px;text-transform:uppercase;margin:0 0 24px;max-width:350px}.mobile-break{display:block}.hero-meta{display:flex;flex-direction:column;gap:16px}.meta-row{display:flex;align-items:center;gap:24px;font-size:16px;line-height:24px;letter-spacing:-.32px}.meta-row img{object-fit:contain}.page-content{width:100%;margin:32px auto 0;padding:0 23px}.contact-panel{margin:0 auto 32px;max-width:100%;height:auto;min-height:0}.tabs{height:48px;margin:0 -17px;display:flex;overflow:auto;border-bottom:1px solid var(--border);padding-left:16px;gap:0;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{position:relative;flex:none;border:0;background:#fff;color:var(--navy);opacity:.66;font-family:inherit;font-weight:700;font-size:14px;line-height:16px;white-space:nowrap;padding:0 16px;cursor:pointer}.tab.is-active{opacity:1;color:#0d0f13}.tab.is-active:after{position:absolute;content:"";height:2px;background:var(--blue);left:16px;right:16px;bottom:0}.tab-panel{height:auto}.contact-inner{width:min(100%,342px);margin:0 auto;padding:22px 0 0;display:flex;flex-direction:column;gap:12px}.info-group h2,.find-us h2{font-size:16px;line-height:24px;color:var(--navy);margin:0 0 4px;font-weight:700;letter-spacing:-.32px}.info-row{min-height:40px;border-bottom:1px solid var(--border);padding:8px 12px;display:flex;align-items:flex-start;gap:8px;font-size:12px;line-height:16px}.info-row img{object-fit:contain;margin-top:2px}.info-row>div{display:flex;flex-direction:column}.info-row a,.hours{color:#1d2229;text-decoration:none}.info-row small{color:#56657a;font-size:10px;line-height:14px}.hours{display:flex;flex-direction:column;min-height:44px;padding:5px 12px;border-bottom:1px solid var(--border);font-size:11px;line-height:15px}.hours strong{font-weight:600}.hours span{font-size:10px;color:#56657a}.cards-panel{width:min(100%,480px);margin:auto;padding:16px 0}.card-type{height:42px;border-bottom:1px solid var(--border);padding:12px 16px;display:flex;gap:8px;align-items:center;font-size:14px}.accordion-list{max-width:100%;margin:0 auto 38px;padding-top:6px;display:flex;flex-direction:column;gap:32px}.accordion{height:62px;border-bottom:1px solid var(--border);color:var(--navy)}.accordion:first-child[open]{height:695px}.accordion:first-child{border-top:1px solid var(--border)}.accordion summary{height:62px;display:flex;align-items:center;list-style:none;cursor:pointer;position:relative;padding:0 44px 0 8px;font-size:20px;line-height:24px;font-weight:700;letter-spacing:-.2px}.accordion summary::-webkit-details-marker{display:none}.accordion summary:after{content:"";position:absolute;right:12px;width:9px;height:9px;border-right:1.5px solid var(--navy);border-bottom:1.5px solid var(--navy);transform:rotate(45deg);top:22px;transition:transform .18s}.accordion[open] summary:after{transform:rotate(225deg);top:27px}.people-list{display:grid;grid-template-columns:1fr;gap:8px;padding:0 1px 12px}.person-card{background:#f9fafb;border-radius:4px;padding:16px;min-width:0;color:#56657a}.person-name{font-size:14px;font-weight:700;line-height:16px;color:#1d2229}.person-role{font-size:9px;letter-spacing:.5px;line-height:14px;color:#868fa2;margin-bottom:12px}.person-contact{display:flex;align-items:center;gap:12px;min-height:26px;font-size:12px;line-height:16px;overflow-wrap:anywhere}.person-contact img{flex:none}.person-contact a{color:#56657a;text-decoration:none}.accordion-content{padding:0 12px 18px;color:#56657a;font-size:14px;line-height:22px}.accordion-content p{margin:0}.find-us{width:344px;max-width:100%;margin:0 0 57px 9px;display:grid;grid-template-columns:1fr;gap:16px}.find-us h2{font-size:20px;line-height:24px;margin:0}.map-link{height:422px;position:relative;display:block;overflow:hidden;border:1px solid #d1d7e0}.map-image{position:absolute;width:100%;height:100%;max-width:none;left:0;top:0;object-fit:cover;object-position:center}.map-marker{position:absolute;left:49%;top:57%;width:32px;height:40px;background:#16417f;clip-path:path("M16 0C7.2 0 0 7.2 0 16c0 11 16 24 16 24s16-13 16-24C32 7.2 24.8 0 16 0Z");filter:drop-shadow(0 2px 2px #0005);display:grid;place-items:center;padding-bottom:9px}.map-marker span{width:10px;height:10px;background:white;border-radius:50%}.map-card{min-height:126px;background:#fff;box-shadow:0 3px 3px #0003,0 -1px 1px #0000000d;border-radius:4px;padding:12px 16px;display:flex;flex-direction:column;gap:4px}.map-card h3{margin:0 0 2px;color:var(--navy);font-size:14px;line-height:18px}.map-card div{display:flex;align-items:center;gap:6px;color:#56657a;font-size:11px;line-height:16px}.map-card img{object-fit:contain}.map-card a{color:inherit;text-decoration:none}.site-footer{background:var(--navy);color:#fff;min-height:339px}.footer-inner{max-width:1000px;min-height:339px;margin:auto;padding:24px;display:flex;flex-direction:column;align-items:flex-start;gap:28px}.footer-inner>a:first-child{font-size:12px;color:white;text-decoration:none}.social-links{display:flex;gap:16px;align-items:center}.social-links a{font-size:11px;font-weight:700;color:#fff;text-decoration:none;min-width:12px}.copyright{font-size:10px;line-height:14px;color:#c7ced8}.footer-logo{align-self:flex-end;width:117.333px;height:20px;display:flex;align-items:center;justify-content:center;margin-top:auto}.footer-logo img{display:block;flex:none;transform:scale(1.333);transform-origin:center}
+@media(max-width:450px){.phone-shell{width:100%;margin:0 auto;border-radius:0;box-shadow:none}}
+
+/* Attached Scania mobile header and footer adjustments */
+.site-header{padding:0;height:64px;display:flex;align-items:stretch}
+.header-menu-area{width:calc(100% - 192px);min-width:80px;height:64px;display:flex;align-items:center;padding-left:36px}
+.menu-button{padding:0;width:24px;height:22px;border:0;background:transparent;display:flex;flex-direction:column;justify-content:center;gap:5px;cursor:pointer}
+.menu-button span{height:2px;width:23px;background:#fff}
+.header-actions{display:flex;height:64px;flex:none}
+.header-action{width:64px;height:64px;border:0;border-left:1px solid #173761;background:transparent;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.header-action svg{width:32px;height:32px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.language-button svg{width:30px;height:30px;stroke-width:1.5}
+.header-logo{width:64px;height:64px;border-left:1px solid #173761;display:flex;align-items:center;justify-content:center;flex:none;margin:0}
+.scania-mark{width:34px;height:36px;border:1.5px solid #fff;border-radius:48% 48% 46% 46%;display:grid;place-items:center;color:#e30613;font-family:Georgia,serif;font-size:21px;font-weight:700;font-style:italic;text-shadow:0 0 1px #fff;box-shadow:inset 0 0 0 2px var(--navy),inset 0 0 0 3px #fff;transform:rotate(-6deg)}
+.header-search,.language-menu{position:absolute;z-index:9;top:64px;right:64px;left:0;padding:14px 16px;background:var(--navy);box-shadow:0 8px 14px #0003;color:#fff}
+.header-search[hidden],.language-menu[hidden]{display:none}
+.header-search{align-items:center;gap:8px}
+.header-search:not([hidden]){display:flex}
+.header-search label{font-size:12px}
+.header-search input{min-width:0;flex:1;padding:8px;border:0;border-radius:2px;font:inherit}
+.header-search button,.language-menu button{border:0;background:#fff;color:var(--navy);padding:8px 12px;font:inherit}
+.language-menu{left:auto;right:0;min-width:210px;flex-direction:column;gap:4px}
+.language-menu:not([hidden]){display:flex}
+.contact-panel{margin-bottom:0}
+.accordion-list{padding-top:80px}
+.social-links{display:flex;gap:10px;align-items:center}
+.social-links a{width:16px;height:16px;display:block;color:#fff;text-decoration:none;flex:none}
+.social-links svg{width:16px;height:16px;display:block;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.social-links a:first-child svg,.social-links a:nth-child(3) svg{fill:currentColor;stroke:none}
+.social-links .social-dot{fill:currentColor;stroke:none}
+.footer-bottom-row{width:100%;margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.footer-logo{align-self:auto;margin:0;width:117.333px;height:20px;display:flex;align-items:center;justify-content:center;flex:none}
+@media(max-width:450px){.header-menu-area{width:calc(100% - 192px);padding-left:36px}}
+.site-header .header-search:not([hidden]){display:flex}
+.site-header .header-search:not([hidden]){display:flex!important}
+.site-header .language-menu:not([hidden]){display:flex!important}
+.footer-inner{position:relative;padding-bottom:24px}
+.footer-bottom-row{position:absolute;left:24px;right:24px;bottom:24px;width:auto;margin-top:0}
+.social-links{position:absolute;left:24px;bottom:80px;margin-bottom:0}
+.site-footer,.footer-inner{min-height:180px}
+/* Header icon sizing from the supplied reference */
+.header-actions{gap:16px;align-items:center}
+.header-action{width:16px;height:16px;padding:0;border:0;overflow:visible}
+.header-action svg{width:16px;height:16px;stroke-width:1.8}
+.language-button svg{width:16px;height:16px;stroke-width:1.5}
+.header-logo{width:16px;height:16px;border:0;margin:0}
+.header-logo img{display:block;width:16px;height:16px;object-fit:cover;object-position:center}
+.scania-mark{display:none}
+.header-actions{margin-right:24px}
+.header-actions .header-logo{width:32px;height:32px;flex:none;margin-left:0}
+.header-actions .header-logo-image{display:block;width:auto;height:32px;max-width:none;object-fit:contain;transform:none}
+.header-actions{margin-left:auto}
+.header-actions .header-action,.header-actions .header-action svg,.header-actions .language-button svg{width:24px;height:24px}
+@media(max-width:450px){.header-actions .header-logo{width:32px;height:32px}}
+
+/* Dealer map pin and directions interaction */
+.map-link{cursor:default}
+.map-marker-control{position:absolute;left:50%;top:57%;display:flex;flex-direction:column;align-items:center;gap:20px;transform:translate(-50%,-50%);z-index:2}
+.map-marker{position:relative;width:46px;height:55px;padding:0;border:0;background:transparent;cursor:pointer;display:block;flex:none}
+.map-marker .pin-default{display:block;width:46px;height:55px;object-fit:contain}
+.pin-active-crop{display:none;position:relative;width:50px;height:59px;overflow:hidden}
+.pin-active-crop img{position:absolute;left:-45px;top:-60px;width:140px;height:119px;max-width:none}
+.map-marker-control.is-active .map-marker{width:50px;height:59px}
+.map-marker-control.is-active .pin-default{display:none}
+.map-marker-control.is-active .pin-active-crop{display:block}
+.map-directions{display:none;height:40px;min-width:140px;padding:0 12px;background:#204982;color:#fff;border-radius:0 0 2px 2px;align-items:center;justify-content:space-between;gap:12px;font-size:13px;line-height:16px;text-decoration:none;white-space:nowrap}
+.map-directions svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.map-marker-control.is-active .map-directions{display:flex}
+.map-marker,.map-marker-control.is-active .map-marker{width:20px;height:24px}
+.map-marker .pin-default{width:20px;height:24px}
+.pin-active-crop,.map-marker-control.is-active .pin-active-crop{width:20px;height:24px}
+.pin-active-crop img{left:-18px;top:-24px;width:56px;height:47.6px}
+
+/* Stable 32px map pin with a color-only active state */
+.map-marker-control{left:36%;top:75%;display:block;width:32px;height:32px;gap:0;transform:translate(-50%,-50%)}
+.map-marker-control .map-marker,.map-marker-control.is-active .map-marker{position:absolute;inset:0;width:32px;height:32px;padding:0;background:transparent}
+.map-marker-control .pin-default,.map-marker-control .pin-active{position:absolute;left:50%;top:50%;width:26.72px;height:32px;object-fit:contain;transform:translate(-50%,-50%)}
+.map-marker-control .pin-active{display:none}
+.map-marker-control.is-active .pin-default{display:none}
+.map-marker-control.is-active .pin-active{display:block}
+.map-marker-control .pin-active-crop{display:none}
+.map-marker-control .map-directions{position:absolute;left:50%;bottom:calc(100% + 20px);transform:translateX(-50%);margin:0}
