@@ -62,3 +62,6 @@
 .map-embed{position:absolute;z-index:0;left:0;top:0;width:100%;height:100%;padding:0;border:0;margin:0}
 .map-link>.map-marker{position:absolute;z-index:1;left:50%;top:50%;display:block;width:32px;height:38.33px;padding:0;border:0;background:transparent;clip-path:none;filter:drop-shadow(0 2px 3px rgb(4 30 66 / 25%));transform:translate(-50%,-50%);cursor:pointer}
 .map-link>.map-marker img{display:block;width:100%;height:100%;object-fit:contain}
+.accordion:first-child[open]{height:auto}
+.accordion-content ul{margin:0;padding:0 0 0 18px}
+.accordion-content li{margin:0 0 6px}

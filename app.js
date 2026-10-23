@@ -96,3 +96,18 @@ searchPanel.addEventListener('submit', (event) => {
     match.scrollIntoView({behavior: 'smooth', block: 'center'});
   }
 });
+
+const todayHours = document.querySelector('#today-hours');
+if (todayHours) {
+  const dayName = new Intl.DateTimeFormat('en-GB', {weekday: 'long', timeZone: 'Europe/Stockholm'}).format(new Date());
+  const hoursByDay = {
+    Monday: '07:00 - 22:00',
+    Tuesday: '07:00 - 22:00',
+    Wednesday: '07:00 - 22:00',
+    Thursday: '07:00 - 22:00',
+    Friday: '07:00 - 16:00'
+  };
+  todayHours.textContent = hoursByDay[dayName]
+    ? `OPEN TODAY: ${hoursByDay[dayName]}`
+    : 'CLOSED TODAY';
+}
